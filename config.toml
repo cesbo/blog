@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Cesbo blog"
 paginate = 10
 theme = "hulga"
 
@@ -14,10 +14,10 @@ theme = "hulga"
   primaryColor = "#1793d0"
 
   # subtitle on homepage
-  subtitle = "This is a subtitle"
+  subtitle = "We make software for CCTV, broadcasting and each other"
 
   # copyright text on footer
-  copyright = "Copyright © 2020 wlh. All rights reserved."
+  copyright = "Copyright © 2023 wlh. All rights reserved."
 
   # enable katex rendering on every post page, default false
   math = false
@@ -60,29 +60,19 @@ theme = "hulga"
 [menu]
   [[menu.main]]
     identifier = "index"
-    name = "首页"
+    name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
+    identifier = "tv"
+    name = "TV"
+    url = "/tv/"
     weight = 2
   [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
+    identifier = "software"
+    name = "Software"
+    url = "/software/"
     weight = 3
-  [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
-    weight = 4
-  [[menu.main]]
-    identifier = "categories"
-    name = "类别"
-    url = "/categories/"
-    weight = 5
 
 [taxonomies]
 category = "categories"
