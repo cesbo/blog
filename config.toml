@@ -64,15 +64,10 @@ theme = "hulga"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "tv"
-    name = "TV"
-    url = "/tv/"
+    identifier = "Codex"
+    name = "Codex"
+    url = "/codex/"
     weight = 2
-  [[menu.main]]
-    identifier = "software"
-    name = "Software"
-    url = "/software/"
-    weight = 3
 
 [taxonomies]
 category = "categories"
