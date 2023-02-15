@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "SSH"
+date = "2023-02-10"
+tags = [
+    "ssh",
+    "protocols",
+]
++++
 # ssh
 
 SSH - is the primary protocol and tool for the remote servers management.

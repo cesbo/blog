@@ -1,3 +1,13 @@
++++
+author = "Cesbo"
+title = "Video Encodingt"
+date = "2023-02-10"
+tags = [
+    "video",
+    "encoding",
+]
++++
+
 # Video Encoding
 
 Data encoding is necessary to reduce data size transferred over network. Most common video encoding formats:

@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "Audio Encoding"
+date = "2023-02-10"
+tags = [
+    "audio",
+    "encoding",
+]
++++
 # Audio Encoding
 
 Most common audio encoding formats:

@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "MPEG-TS"
+date = "2023-02-10"
+tags = [
+    "mpeg-ts",
+    "protocols",
+]
++++
 # MPEG-TS
 
 MPEG-TS (Transport Stream) - is a transport format for transmission video, audio, and other data over IP or broadband networks.

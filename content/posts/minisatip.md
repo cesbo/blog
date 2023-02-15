@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "Minisatip"
+date = "2023-02-10"
+tags = [
+    "satellite",
+    "ip",
+]
++++
 # Minisatip
 
 Minisatip is a SAT>IP server for Linux

@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "Socat"
+date = "2023-02-10"
+tags = [
+    "socat",
+    "tcp",
+]
++++
 # socat
 
 ## Exposing local resources

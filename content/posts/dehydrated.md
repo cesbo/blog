@@ -1,3 +1,13 @@
++++
+author = "Cesbo"
+title = "HTTPS certificate with Dehydrated"
+date = "2023-02-10"
+tags = [
+    "HTTPS",
+    "certificate",
+    "Dehydrated",
+]
++++
 # HTTPS certificate with Dehydrated
 
 Dehydrated - is a client for signing certificates with an ACME-server (e.g. Let's Encrypt). This client supports both ACME v1 and the new ACME v2 including support for wildcard certificates!

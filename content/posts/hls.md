@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "HLS"
+date = "2023-02-10"
+tags = [
+    "hls",
+    "protocols",
+]
++++
 # HLS
 
 HLS (HTTP Live Streaming protocol) - is an HTTP-based adaptive bitrate streaming communications protocol. HLS protocol is based on the division of one media file into many chanks. This allows the user to access the media file piece by piece in real time. Detailed description available in the [RFC 8216][RFC] standard.

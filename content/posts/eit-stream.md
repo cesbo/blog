@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "EIT stream"
+date = "2023-02-10"
+tags = [
+    "eit",
+    "stream",
+]
++++
 # EIT Stream
 
 **eit-stream** is a tool to convert XMLTV files into MPEG-TS stream with Event Information Tables (EIT) for broadcasting networks like DVB, ATSC, ISDB.

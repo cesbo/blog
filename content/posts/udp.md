@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "UDP"
+date = "2023-02-10"
+tags = [
+    "udp",
+    "transport",
+]
++++
 # UDP
 
 UDP (User Datagram  Protocol) - communication protocol in local networks or Internet, with minimal delays and minimal stability. This protocol provides a procedure for application programs to send messages to receivers. That procedure achieved through checksums for data integrity, and port numbers for addressing different functions at the source and destination of the datagram.

@@ -28,9 +28,6 @@ theme = "hulga"
   # enable showing content summary below post title in home page, default false
   showSummary = true
 
-  # set paginate on taxonomy term page (tags or categories), default 10
-  termPaginate = 3
-
   # enable toc on every post page, default false
   toc = true
 
@@ -57,18 +54,7 @@ theme = "hulga"
   [markup.highlight]
     noClasses = false
 
-[menu]
-  [[menu.main]]
-    identifier = "index"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "Codex"
-    name = "Codex"
-    url = "/codex/"
-    weight = 2
-
 [taxonomies]
 category = "categories"
 tag = "tags"
+series = "series"

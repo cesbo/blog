@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "Iptables"
+date = "2023-02-10"
+tags = [
+    "ip",
+    "tables",
+]
++++
 # iptables
 
 iptables is a command-line firewall utility that uses policy chains to allow or block traffic.

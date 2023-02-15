@@ -1,3 +1,12 @@
++++
+author = "Cesbo"
+title = "HTTP MPEG-TS"
+date = "2023-02-10"
+tags = [
+    "mpeg-ts",
+    "http",
+]
++++
 # HTTP MPEG-TS
 
 HTTP (The Hypertext Transfer Protocol) - is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.
