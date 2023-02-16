@@ -28,7 +28,7 @@ HLS uses a web server, that implements support for it, to distribute audiovisual
 - Distributor
 - Client
 
-![HLS architecture](img/hls.png)
+![HLS architecture](hls.png)
 
 ### Server
 

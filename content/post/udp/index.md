@@ -16,7 +16,7 @@ UDP (User Datagram  Protocol) - communication protocol in local networks or Inte
 <!--more-->
 Detailed description available in the RFC768[^1] standard.
 
-![UDP](img/udp.png)
+![UDP](udp.png)
 
 ## How Does UDP Work?
 
@@ -41,7 +41,7 @@ The lack of retransmission delays makes it suitable for real-time applications s
 
 In computer networking, multicast is group communication where data transmission is addressed to a group of destination computers simultaneously. Multicast can be one-to-many or many-to-many distribution.
 
-![Multicast](img/multicast.png)
+![Multicast](multicast.png)
 
 Group communication may either be application layer multicast or network-assisted multicast, where the latter makes it possible for the source to efficiently send to the group in a single transmission. Copies are automatically created in other network elements, such as routers, switches and cellular network base stations, but only to network segments that currently contain members of the group. Network assisted multicast may be implemented at the data link layer using one-to-many addressing and switching such as Ethernet multicast addressing, ATM (Asynchronous Transfer Mode) and P2MP (point-to-multipoint virtual circuits). In IP multicast the implementation of the multicast concept occurs at the IP routing level, where routers create optimal distribution paths for datagrams sent to a multicast destination address.
 
