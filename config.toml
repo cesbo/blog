@@ -54,6 +54,9 @@ theme = "hulga"
   [markup.highlight]
     noClasses = false
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
 [taxonomies]
 category = "categories"
 tag = "tags"
