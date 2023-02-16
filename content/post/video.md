@@ -6,12 +6,15 @@ tags = [
     "video",
     "encoding",
 ]
+categories = [
+    "streaming",
+]
 +++
 
 # Video Encoding
 
 Data encoding is necessary to reduce data size transferred over network. Most common video encoding formats:
-
+<!--more-->
 | Standard | Name |
 | --- | --- |
 | ISO/IEC 13818-2 | MPEG-2 Video (MPEG-2 part 2) |

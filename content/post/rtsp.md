@@ -6,11 +6,14 @@ tags = [
     "RTSP",
     "protocols",
 ]
+categories = [
+    "streaming",
+]
 +++
 # RTSP
 
 RTSP (Real Time Streaming Protocol) - is an application-level network protocol designed for multiplexing and packetizing multimedia transport streams over a suitable transport protocol. RTSP is used in entertainment and communications systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between endpoints. Clients of media servers issue commands such as play, record and pause, to facilitate real-time control of the media streaming from the server to a client (video on demand) or from a client to the server.
-
+<!--more-->
 Detailed description available in the [RFC 7826](https://www.rfc-editor.org/rfc/rfc8216){target="_blank"} standard.
 
  As a rule RTSP servers often leverage the Real-Time Transport Protocol (RTP) in conjunction with the Real-Time Control Protocol to move the actual streaming data.

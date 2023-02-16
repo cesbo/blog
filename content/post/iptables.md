@@ -6,11 +6,12 @@ tags = [
     "ip",
     "tables",
 ]
+categories = [
+    "software",
+]
 +++
-# iptables
-
 iptables is a command-line firewall utility that uses policy chains to allow or block traffic.
-
+<!--more-->
 ## Limit requests rate
 
 You can limit connections rate to your server by IP. All connections over the defined limit in defined period will be dropped.

@@ -6,13 +6,16 @@ tags = [
     "DigitalDevices",
     "Drivers",
 ]
+categories = [
+    "streaming",
+]
 +++
 # DigitalDevices Drivers
 
 ## Automatic Installation
 
 For installation by script just launch command:
-
+<!--more-->
 ```
 curl http://cesbo.com/download/astra/scripts/drv-dd.sh | bash
 ```

@@ -6,11 +6,14 @@ tags = [
     "eit",
     "stream",
 ]
+categories = [
+    "streaming",
+]
 +++
 # EIT Stream
 
 **eit-stream** is a tool to convert XMLTV files into MPEG-TS stream with Event Information Tables (EIT) for broadcasting networks like DVB, ATSC, ISDB.
-
+<!--more-->
 ## Installation
 
 Just download single binary file and set execute permission:

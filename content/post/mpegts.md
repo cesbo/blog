@@ -6,12 +6,15 @@ tags = [
     "mpeg-ts",
     "protocols",
 ]
+categories = [
+    "streaming",
+]
 +++
 # MPEG-TS
 
 MPEG-TS (Transport Stream) - is a transport format for transmission video, audio, and other data over IP or broadband networks.
 Detailed description available in the `ISO 13818-1` standard.
-
+<!--more-->
 ## Packetized Elementary Stream
 
 Elementary Stream (ES) is a compressed data output from the encoder.

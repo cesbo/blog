@@ -6,13 +6,16 @@ tags = [
     "tbs",
     "drivers",
 ]
+categories = [
+    "streaming",
+]
 +++
 # TBS Drivers
 
 ## Automatic Installation
 
 For installation by script just launch command:
-
+<!--more-->
 ```
 curl http://cesbo.com/download/astra/scripts/drv-tbs.sh | bash
 ```

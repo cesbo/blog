@@ -6,11 +6,14 @@ tags = [
     "satellite",
     "ip",
 ]
+categories = [
+    "streaming",
+]
 +++
 # Minisatip
 
 Minisatip is a SAT>IP server for Linux
-
+<!--more-->
 ## Launch
 
 ```

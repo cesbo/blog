@@ -6,11 +6,13 @@ tags = [
     "audio",
     "encoding",
 ]
+categories = [
+    "streaming",
+]
 +++
 # Audio Encoding
-
 Most common audio encoding formats:
-
+<!--more-->
 | Standard | Name |
 | --- | --- |
 | ISO/IEC 11172 | MPEG-1 Audio (MP3 or MPEG-1 part 3) |

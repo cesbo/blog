@@ -6,11 +6,14 @@ tags = [
     "mpeg-ts",
     "http",
 ]
+categories = [
+    "streaming",
+]
 +++
 # HTTP MPEG-TS
 
 HTTP (The Hypertext Transfer Protocol) - is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.
-
+<!--more-->
 Transfer Protocol functions as a request–response protocol in the client–server model. A media player or web browse, may be the client whereas a process, named HTTP server, running on a computer hosting media content is a server. The server, which provides resources such as media streams and other content or performs other functions on behalf of the client, returns a response message to the client. The response contains completion status information about the request, broadcast media stream or error message.
 
 Detailed description available in the [RFC 9112](https://datatracker.ietf.org/doc/html/rfc9112){target="_blank"} standard.
