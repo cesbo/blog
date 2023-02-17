@@ -1,20 +1,15 @@
-<nav class="navbar is-primary">
-  <div class="container">
-    <div class="navbar-brand">
-      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div class="navbar-menu" id="navMenu">
-      <div class="navbar-end">
-        {{ range .Site.Menus.main.ByWeight -}}
-        {{ .Pre }}
-        <a class="navbar-item" href="{{ .URL }}" title="{{ .Identifier }}">{{- .Name -}}</a>
-        {{ .Post }}
-        {{- end }}
-      </div>
-    </div>
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      {{ range .Site.Menus.main.ByWeight -}}
+      {{ .Pre }}
+      <li class="md-tabs__item">
+        <a href="{{ .URL }}" class="md-tabs__link" title="{{ .Identifier }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{ .Post }}
+      {{- end }}
+    </ul>
   </div>
 </nav>
