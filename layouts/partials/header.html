@@ -220,7 +220,10 @@ input{color:var(--md-typeset-color);}
 }
 .md-search-result__list{list-style:none;margin:0;padding:0;-webkit-user-select:none;-moz-user-select:none;user-select:none;}
 .md-select{position:relative;z-index:1;}
-.md-select__inner{background-color:var(--md-default-bg-color);border-radius:.1em;box-shadow:var(--md-shadow-z2);color:var(--md-default-fg-color);left:50%;margin-top:.2em;max-height:0;opacity:0;position:absolute;top:calc(100% - .2em);transform:translate3d(-50%,.3em,0);transition:transform .25s 375ms,opacity .25s .25s,max-height 0ms .5s;}
+.md-select__inner{
+  display: none;
+  background-color:var(--md-default-bg-color);border-radius:.1em;box-shadow:var(--md-shadow-z2);color:var(--md-default-fg-color);left:50%;margin-top:.2em;position:absolute;top:calc(100% - .2em);transform:translate3d(-50%,.3em,0);transition:transform .25s 375ms,opacity .25s .25s,max-height 0ms .5s;
+}
 .md-select__inner:after{border-bottom:.2em solid #0000;border-bottom-color:var(--md-default-bg-color);border-left:.2em solid #0000;border-right:.2em solid #0000;border-top:0;content:"";height:0;left:50%;margin-left:-.2em;margin-top:-.2em;position:absolute;top:0;width:0;}
 .md-select__list{border-radius:.1em;font-size:.8em;list-style-type:none;margin:0;max-height:inherit;overflow:auto;padding:0;}
 .md-select__item{line-height:1.8em;}
@@ -250,6 +253,7 @@ input{color:var(--md-typeset-color);}
 .md-tabs__item:nth-child(8) .md-tabs__link{transition-delay:.14s;}
 .md-tabs__link--active, .md-tabs__link:is(:focus,:hover) {color: inherit; opacity: 1;}
 /*! CSS Used from: https://help.cesbo.com/en/astra/assets/stylesheets/extra.css */
+.cesbo-menu:hover .md-select__inner {display: block;}
 .md-logo img{filter:brightness(0) invert(1);}
 .md-header .md-select.cesbo-menu{position:initial;}
 .md-header .md-select.cesbo-menu > .md-select__inner{left:0;width:100vw;transform:translate3d(0, .3em, 0);}
