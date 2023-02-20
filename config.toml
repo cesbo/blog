@@ -54,18 +54,6 @@ theme = "hulga"
   [markup.highlight]
     noClasses = false
 
-[menu]
-  [[menu.main]]
-    identifier = "index"
-    name = "index"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "cesbo"
-    name = "cesbo.com"
-    url = "https://cesbo.com"
-    weight = 1
-
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
