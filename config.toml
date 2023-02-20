@@ -6,9 +6,9 @@ theme = "hulga"
 
 [params]
   # show in HTML meta tag
-  author = "xxx"
-  keywords = "HTML, hugo, CSS"
-  description = "xxx's blog, xxx xx xxxx"
+  author = "Cesbo"
+  keywords = "TV, Software, Streaming"
+  description = "Get the latest news about Cesbo products, technologies, and solutions"
 
   # change bulma's primary color
   primaryColor = "#1793d0"
