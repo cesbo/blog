@@ -222,11 +222,28 @@ input{color:var(--md-typeset-color);}
 .md-select{position:relative;z-index:1;}
 .md-select__inner{
   display: none;
-  background-color:var(--md-default-bg-color);border-radius:.1em;box-shadow:var(--md-shadow-z2);color:var(--md-default-fg-color);left:50%;margin-top:.2em;position:absolute;top:calc(100% - .2em);transform:translate3d(-50%,.3em,0);transition:transform .25s 375ms,opacity .25s .25s,max-height 0ms .5s;
+  right: 0;
+  min-width: 12rem;
+  background-color:var(--md-default-bg-color);
+  border-radius:.1em;
+  box-shadow:
+  var(--md-shadow-z2);color:var(--md-default-fg-color);left:50%;
+  position:absolute;
+  top:calc(100% - .4em);
+  transform:translate3d(-50%,.3em,0);transition:transform .25s 375ms,opacity .25s .25s,max-height 0ms .5s;
+}
+.cesbo-hr {
+  margin: 1px;
 }
 .md-select__inner:after{border-bottom:.2em solid #0000;border-bottom-color:var(--md-default-bg-color);border-left:.2em solid #0000;border-right:.2em solid #0000;border-top:0;content:"";height:0;left:50%;margin-left:-.2em;margin-top:-.2em;position:absolute;top:0;width:0;}
 .md-select__list{border-radius:.1em;font-size:.8em;list-style-type:none;margin:0;max-height:inherit;overflow:auto;padding:0;}
-.md-select__item{line-height:1.8em;}
+.md-select__item{
+  padding: 0.2rem;
+  line-height:1.8em;
+}
+.md-select__link:is(:focus,:hover) {
+  color: var(--md-accent-fg-color);
+}
 [dir=ltr] .md-select__link{padding-left:.6em;padding-right:1.2em;}
 .md-select__link{cursor:pointer;display:block;outline:none;scroll-snap-align:start;transition:background-color .25s,color .25s;width:100%;}
 .md-select__link:focus{background-color:var(--md-default-fg-color--lightest);}
@@ -311,7 +328,7 @@ input{color:var(--md-typeset-color);}
     <div class="md-header__option">
       <div class="md-select cesbo-menu">
         <button class="md-header__button md-icon" aria-label="Help Center">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
         </button>
         <div class="md-select__inner">
           <ul class="md-select__list">
@@ -319,19 +336,19 @@ input{color:var(--md-typeset-color);}
               <a href="https://www.cesbo.com" class="md-select__link">Main Site</a>
             </li>
             <li class="md-select__item">
-              <hr>
+              <hr class="cesbo-hr">
             </li>
             <li class="md-select__item">
-              <a href="/en/alta/" class="md-select__link">Alta - Media Server</a>
+              <a href="/en/alta/" class="md-select__link">Documentation</a>
             </li>
             <li class="md-select__item">
-              <a href="/en/astra/" class="md-select__link">Astra - Broadcasting Server</a>
+              <a href="/en/astra/" class="md-select__link">Help</a>
             </li>
             <li class="md-select__item">
-              <hr>
+              <hr class="cesbo-hr">
             </li>
             <li class="md-select__item">
-              <a href="/en/codex/" class="md-select__link">Codex</a>
+              <a href="/en/codex/" class="md-select__link">Profile</a>
             </li>
           </ul>
         </div>
