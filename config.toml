@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.cesbo.com/"
 languageCode = "en-us"
 title = "Cesbo blog"
 paginate = 10
