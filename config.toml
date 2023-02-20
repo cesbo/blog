@@ -61,11 +61,6 @@ theme = "hulga"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "search"
-    name = "search"
-    url = "/search/"
-    weight = 1
-  [[menu.main]]
     identifier = "cesbo"
     name = "cesbo.com"
     url = "https://cesbo.com"
