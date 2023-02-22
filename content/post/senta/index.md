@@ -1,8 +1,19 @@
+ tags = [
+    "video",
+    "playlist",
+]
+categories = [
+    "streaming",
+    "software",
+]
+ 
  # Quick start
 
  The Senta interface allows you to provide access to the channel playlist for users connected to the server.
 
  In order to start using the Senta interface, you need the following set of actions.
+
+<!--more-->
 
  ## Start up
 
