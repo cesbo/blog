@@ -1,4 +1,8 @@
- tags = [
++++
+author = "Cesbo"
+title = "Senta"
+date = "2023-02-26"
+tags = [
     "video",
     "playlist",
 ]
@@ -6,20 +10,20 @@ categories = [
     "streaming",
     "software",
 ]
- 
- # Quick start
++++
+# Quick start
 
- The Senta interface allows you to provide access to the channel playlist for users connected to the server.
+The Senta interface allows you to provide access to the channel playlist for users connected to the server.
 
- In order to start using the Senta interface, you need the following set of actions.
+In order to start using the Senta interface, you need the following set of actions.
 
 <!--more-->
 
- ## Start up
+## Start up
 
- Open the terminal of the server on which you want to deploy Senta. In this terminal window, enter the following commands:
+Open the terminal of the server on which you want to deploy Senta. In this terminal window, enter the following commands:
 
- ```
+```
  ./senta init
 Service name [senta]: senta
 Database path [/var/lib/senta.db]: test3.db
@@ -29,21 +33,19 @@ Confirm password:
 HTTP Server Port [8500]: 8500
 Add service to systemd? [Y/n/?]: n
 Start service [Y/n/?]: n
- ```
+```
 
 - `./senta init` - Senta initialization
 - `Service name [senta]:` - arbitrary server name
 - `Database path [/var/lib/senta.db]:` - path to the database being used
 
-!!! danger ""
-    In "Database path" a folder in which the used file must be located is already exists. In the input line, only its name is indicated
+>In "Database path" a folder in which the used file must be located is already exists. In the input line, only its name is indicated
 
 - `Admin login [admin]:` - login access to Senta
 - `Admin password [728539]:` - password access to Senta
 - `Confirm password:` - repeat your password
 
-!!! danger ""
-    while entering and repeating the password, the entered characters are not displayed
+>while entering and repeating the password, the entered characters are not displayed
 
 - `HTTP Server Port [8500]:` - port of the server to which Senta will connect
 - `Add service to systemd? [Y/n/?]:` - standard Linux prompt to create Systemd service
